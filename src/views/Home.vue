@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <Logo />
+  <div>
+    <Logo class="logo" />
     <center>
       <MotDePasse class="box" />
     </center>
@@ -22,8 +22,8 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.home {
-  margin: 20px;
+.logo {
+  margin: 15px 0px 10px 0px;
 }
 .box {
   border: 4px solid #ffffff;
