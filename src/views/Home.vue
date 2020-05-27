@@ -2,7 +2,7 @@
   <div class="home">
     <Logo class="logo" />
     <center>
-      <MotDePasse class="box" />
+      <MotDePasse api="https://www.numerologie-pratique.net/api/" class="box" />
     </center>
   </div>
 </template>
