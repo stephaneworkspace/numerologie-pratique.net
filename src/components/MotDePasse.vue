@@ -18,7 +18,7 @@
       <div class="columns" v-if="swAuth">
         <div class="column">
           <b-field label="Nom(s)/Prenom(s)">
-            <b-input type="nom" placeholder="Nom(s) et prénom(s)"> </b-input>
+            <b-input placeholder="Nom(s) et prénom(s)"> </b-input>
           </b-field>
         </div>
         <div class="column">
@@ -30,6 +30,12 @@
             >
             </b-datepicker>
           </b-field>
+        </div>
+        <br />
+      </div>
+      <div class="container is-fluid" v-if="swAuth">
+        <div class="notification is-primary">
+          <b-button type="is-primary">Générer thème</b-button>
         </div>
       </div>
     </section>
