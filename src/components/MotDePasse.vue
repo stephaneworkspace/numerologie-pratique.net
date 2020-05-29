@@ -111,7 +111,7 @@ export default class MotDePasse extends Vue {
 
     axios
       .get(
-        `${this.api}chart/${this.password}/${this.name}/${this.password}/${day}/${month}/${year}`,
+        `${this.api}chart/${this.password}/${this.name}/${day}/${month}/${year}`,
         config
       )
       .then(res => {
